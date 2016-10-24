@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-10-10 20:51:53 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.syz.dataPackage.bean.User" table="USER">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="photoImage" type="java.lang.String" access="field">
+            <column name="PHOTOIMAGE" />
+        </property>
+        <property name="user_name" type="java.lang.String">
+            <column name="USER_NAME" />
+        </property>
+        <property name="user_psw" type="java.lang.String">
+            <column name="USER_PSW" />
+        </property>
+        <property name="gander" type="java.lang.String">
+            <column name="GANDER" />
+        </property>
+        <property name="qq" type="java.lang.String">
+            <column name="QQ" />
+        </property>
+        <property name="hobbly" type="java.lang.String">
+            <column name="HOBBLY" />
+        </property>
+        <property name="signature" type="java.lang.String">
+            <column name="SIGNATURE" />
+        </property>
+        <property name="line" type="java.lang.Integer">
+            <column name="LINE" />
+        </property>
+    </class>
+</hibernate-mapping>
